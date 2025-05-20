@@ -1,0 +1,25 @@
+name: RV
+channels:
+  - conda-forge
+  - defaults
+ dependencies:
+   - altair
+   - arviz
+   - bokeh
+   - dask
+   - h5netcdf
+   - h5py
+   - keras
+   - matplotlib
+   - numpy
+   - pandas
+   - pymc
+   - pytensor
+   - scikit-learn
+   - scipy
+   - seaborn
+   - statsmodels
+   - sympy
+   - tensorflow
+   - torch
+   - xarray
