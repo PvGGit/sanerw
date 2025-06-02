@@ -1,25 +1,29 @@
-name: RV
 channels:
-  - conda-forge
   - defaults
- dependencies:
-   - altair
-   - arviz
-   - bokeh
-   - dask
-   - h5netcdf
-   - h5py
-   - keras
-   - matplotlib
-   - numpy
-   - pandas
-   - pymc
-   - pytensor
-   - scikit-learn
-   - scipy
-   - seaborn
-   - statsmodels
-   - sympy
-   - tensorflow
-   - torch
-   - xarray
+  - https://repo.anaconda.com/pkgs/main
+  - conda-forge
+dependencies:
+  - python=3.12
+  - altair=5.5.0
+  - arviz=0.21.0
+  - bokeh=3.6.2
+  - cvxpy=1.6.5
+  - dask=2025.2.0
+  - h5netcdf=1.2.0
+  - h5py=3.12.1
+  - keras=3.6.0
+  - matplotlib=3.10.0
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - pymc=5.16.1
+  - pytensor=2.23.0
+  - scikit-learn=1.6.1
+  - scipy=1.12.0
+  - seaborn=0.13.2
+  - statsmodels=0.14.4
+  - sympy=1.13.3
+  - pip # Dit mag conda lekker zelf uitzoeken
+  - pytorch=2.5.1
+  - xarray=2024.11.0
+  - pip:
+    - tensorflow==2.19.0
