@@ -12,6 +12,7 @@ dependencies:
   - h5netcdf=1.2.0
   - h5py=3.12.1
   - jupyterlab
+  - jupyter_server=2.14.1
   - keras=3.6.0
   - matplotlib=3.10.0
   - numpy=1.26.4
