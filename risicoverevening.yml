@@ -11,6 +11,7 @@ dependencies:
   - dask=2025.2.0
   - h5netcdf=1.2.0
   - h5py=3.12.1
+  - jupyterlab
   - keras=3.6.0
   - matplotlib=3.10.0
   - numpy=1.26.4
